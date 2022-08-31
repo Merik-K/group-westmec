@@ -5,20 +5,44 @@ body {
 
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: poppinsFontExtraBold;
 }
 
 .topBorder {
-    background-color: pink;
+    background-color: rgb(255, 99, 125);
+    margin-top: -2ch;
+    margin-left: -1ch;
+    margin-right: -1ch;
+}
+.topBorder2 {
+    background-color:lime;
     margin-top: -1ch;
     margin-left: -1ch;
     margin-right: -1ch;
 }
 
 .validName {
-    color: rgb(255, 99, 125);
+    color: rgb(249, 221, 225);
 }
 
 .saladsName {
     color: lime;
+    text-decoration: underline;
+}
+h2 {
+    font-family: poppinsFontMedium;
+    color: orange;
+}
+button {
+    background-color: rgb(205, 255, 211);
+    border-color: white;
+    size: 20ch;
+}
+@font-face {
+    font-family: poppinsFontMedium;
+    src: url(./fontPoppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppinsFontExtraBold;
+    src: url(./fontPoppins/Poppins-ExtraBold.ttf);
 }
