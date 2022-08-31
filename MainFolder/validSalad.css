@@ -11,7 +11,6 @@ body {
     position: fixed;
     z-index: -10;
     filter: blur(11px);
-    color-overl
 }
 
 h1 {
