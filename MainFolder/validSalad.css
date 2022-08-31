@@ -1,24 +1,46 @@
 body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+#backgroundSalad {
+    width: 155ch;
+    height: auto;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    position: fixed;
+    z-index: -10;
+    filter: blur(11px);
+    color-overl
 }
 
 h1 {
     text-align: center;
     font-family: poppinsFontExtraBold;
+    margin-top: 0ch;
 }
-
+#bestSalads {
+    color:rgb(255, 157, 173);
+    font-size: 10ch;
+    background-color: rgba(255, 255, 255, 0.396);
+    
+}
 .topBorder {
     background-color: rgb(255, 99, 125);
-    margin-top: -2ch;
+    margin-top: -4ch;
     margin-left: -1ch;
     margin-right: -1ch;
+    height: 10ch;
+    position: sticky;
+    top: 0ch;
 }
 .topBorder2 {
-    background-color:lime;
+    background-color:rgb(129, 255, 129);
     margin-top: -1ch;
     margin-left: -1ch;
     margin-right: -1ch;
+    top: 10ch;
+    position: sticky;
 }
 
 .validName {
@@ -29,9 +51,25 @@ h1 {
     color: lime;
     text-decoration: underline;
 }
+
+#orange {
+    background-color: orange;
+    margin-bottom: -6ch;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    z-index: 10;
+}
+
 h2 {
     font-family: poppinsFontMedium;
     color: orange;
+}
+#orderHereHeader {
+    font-size: 4ch;
+    color: rgb(255, 99, 125);
+    text-decoration: underline;
+    text-align: center;
+    
 }
 button {
     background-color: rgb(205, 255, 211);
@@ -45,4 +83,29 @@ button {
 @font-face {
     font-family: poppinsFontExtraBold;
     src: url(./fontPoppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family:poppinsLight ;
+    src: url(./fontPoppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(fontPoppins/Poppins-Regular.ttf);
+}
+input {
+    accent-color: rgb(128, 255, 128);
+    box-decoration-break: slice;
+}
+label {
+    font-family: poppinsRegular;
+}
+img {
+    height: 10ch;
+    margin-right: 10ch;
+    margin-left: auto;
+}
+#backgroundColorChooser {
+    background-color: white;
+    margin-right: -1ch;
+    margin-left: -1ch;
 }
