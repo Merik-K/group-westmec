@@ -4,15 +4,27 @@ body {
     
 }
 #backgroundSalad {
-    width: 155ch;
+    width: 175ch;
     height: auto;
     margin-left: -1ch;
     margin-right: -1ch;
     position: fixed;
     z-index: -10;
     filter: blur(11px);
+<<<<<<< HEAD
+    
 }
-
+.menuLinks {
+    color: orange;
+    text-align: right;
+    font-size: 2ch;
+    margin-left: 90ch;
+    position: fixed;
+    z-index: 20;
+    margin-top: -.75ch;
+=======
+>>>>>>> a087ceb71091271ec28fbb24042e46ccb41c2d0e
+}
 h1 {
     text-align: center;
     font-family: poppinsFontExtraBold;
@@ -22,24 +34,37 @@ h1 {
     color:rgb(255, 157, 173);
     font-size: 10ch;
     background-color: rgba(255, 255, 255, 0.396);
-    
+    z-index: 6;
 }
-.topBorder {
+#topBorder {
     background-color: rgb(255, 99, 125);
-    margin-top: -4ch;
+    margin-top: 0ch;
     margin-left: -1ch;
     margin-right: -1ch;
     height: 10ch;
-    position: sticky;
+    width: 175ch;
+    position: fixed;
     top: 0ch;
+    z-index: 5;
 }
 .topBorder2 {
     background-color:rgb(129, 255, 129);
-    margin-top: -1ch;
+    margin-top: 3ch;
     margin-left: -1ch;
     margin-right: -1ch;
-    top: 10ch;
-    position: sticky;
+    width: 175ch;
+    z-index: 5;
+    position: fixed;
+}
+
+#orderText {
+    margin-left: 50ch;
+    margin-right: 50ch;
+}
+#orangeBowl {
+    margin-left: 30ch;
+    margin-top: -12.5ch;
+    position: absolute;
 }
 
 .validName {
