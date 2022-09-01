@@ -1,25 +1,3 @@
-/*Prices for everything
-
-lettuce:
-Romanian: 1.30
-iceberg: 5.00
-Bativia: 2.10
-Celtius: 0.69
-butterhead: 1.31
-
-fruits:
-tomatoe: 0.50
-strawberry: 0.50
-pineapple: 0.50
-kiwi: 0.50
-cranberry: 0.50
-
-meats:
-chicken: 5.00
-steak: 7.00
-teriaki: 7.00
-
-*/
 let bowlSize
 let lettuceType = []
 let veggies = []
@@ -88,6 +66,15 @@ function calculateTotalPrice() { //Calculates the total price at the end from cl
     else if (bowlSize == "Large") {
         finalTotalPrice = totalPrice * 3
     }
+
     console.log(finalTotalPrice)
     console.log(bowlSize + " " + lettuceType + " " + veggies + " " + fruits + " " + meats + " " + dressing)
+    alert(`You ordered a ${bowlSize} salad with 
+    Lettuce  : ${lettuceType} 
+    Veggies  : ${veggies}
+    Fruits   : ${fruits}
+    Meats    : ${meats}
+    Dressing : ${dressing}
+    
+    Price: $${totalPrice}`)
 }
