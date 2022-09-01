@@ -30,14 +30,14 @@ let totalPrice = 0
 let finalTotalPrice = 0
 
 function buttonClick(type,which,price) { // Function used to determine if the box that's click is checked and adds the item that is checked to arrays.
-    if (type == "size") {
+    if (type == "size") { // Because these are radiobuttons, variables aren't lists.
         bowlSize = which
     }
     if (type == "dressing") {
         dressing = which
     }
 
-    if (document.getElementById(which).checked == true) {
+    if (document.getElementById(which).checked == true) { // If statement to determine if the button that was clicked was true/false. If positive, add element.
 
         if (type == "lettuceType") {
             lettuceType.push(which)
@@ -57,7 +57,7 @@ function buttonClick(type,which,price) { // Function used to determine if the bo
         }
     }
 
-    else {
+    else { // If false, remove element.
 
         if (type == "lettuceType") {
             lettuceType.splice(lettuceType.indexOf(which), 1)
@@ -76,11 +76,9 @@ function buttonClick(type,which,price) { // Function used to determine if the bo
             totalPrice -= price
         }
     }
-    console.log(bowlSize + " " + lettuceType + " " + veggies + " " + fruits + " " + meats + " " + dressing)
-    console.log(totalPrice)
 }
 
-function calculateTotalPrice() {
+function calculateTotalPrice() { //Calculates the total price at the end from clicking the button.
     if (bowlSize == "Small") {
         finalTotalPrice = totalPrice
     }
@@ -91,4 +89,5 @@ function calculateTotalPrice() {
         finalTotalPrice = totalPrice * 3
     }
     console.log(finalTotalPrice)
+    console.log(bowlSize + " " + lettuceType + " " + veggies + " " + fruits + " " + meats + " " + dressing)
 }
