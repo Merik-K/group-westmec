@@ -15,7 +15,19 @@ fruits:
 tomatoe: .30
 strawberry:.80
 pineapple: .50
+kiwi: .80
+cranberry: .20
 
+meats:
+chicken: 5.00
+steak: 30.00
+teriaki: 7.00
+
+dressing:
+ceaser: 2.80
+buttermilk: 3.00
+jalapenio: 2.30
+Itlaian: 3.30
 let bowlSize, lettuceType, veggies, fruits
 
 
