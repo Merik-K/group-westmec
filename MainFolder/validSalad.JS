@@ -1,3 +1,21 @@
+//Prices for everything
+meats:
+chicken: 2.60
+steak:3.00
+teriaki:2.20
+
+lettuce:
+Romanian: 1.30
+iceberg: 5.00
+Bativia: 2.10
+Celtius: 0.69
+butterhead: 1.31
+
+fruits:
+tomatoe: .30
+strawberry:.80
+pineapple: .50
+
 let bowlSize, lettuceType, veggies, fruits
 
 
