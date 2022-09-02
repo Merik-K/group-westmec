@@ -1,4 +1,4 @@
-let bowlSize
+let bowlSize = 'Small'
 let lettuceType = []
 let veggies = []
 let fruits = []
